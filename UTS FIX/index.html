@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- ================================ NAVBAR ================================  -->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary sticky-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#home" onclick="addActiveClass('nav-home')">Rani Yuniar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" id="nav-home" onclick="addActiveClass('nav-home')" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-about" onclick="addActiveClass('nav-about')" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-work" onclick="addActiveClass('nav-work')" href="#work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-contact" onclick="addActiveClass('nav-contact')" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ================================ HOME ================================  -->
+      <section class="background-image mb-5" id="home">
+        <div class="container h-100 d-flex flex-column justify-content-end pb-4">
+          <p class="text-white m-0 fs-2">Hi! I am</p>
+          <p class="text-white fw-bold m-0 fs-1">Rani Yuniar</p>
+          <p class="text-white fs-3 mb-4">I am a Student</p>
+          <button class="btn btn-primary rounded rounded-pill" style="width: 5rem;">Resume</button>
+        </div>
+      </section>
+      
+      <!-- ================================ ABOUT ================================  -->
+      <section id="about" class="pt-5">
+        <div class="d-flex flex-column align-items-center">
+          <p class="m-0 p-0">More Info</p>
+          <img src="down-arrow.svg" alt="down-arrow" width="50px">
+        </div>
+        <h1 class="ms-5 ps-4 section-title">About</h1>
+        <div class="container">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt molestias et labore eum excepturi sit corporis provident dolor quod praesentium laboriosam tenetur adipisci doloribus totam inventore fuga maxime velit ad iusto non temporibus, rerum, id perferendis molestiae? Hic earum voluptatum totam laudantium molestias aut perspiciatis quisquam ad quam suscipit autem nobis libero, velit veritatis sit asperiores qui alias impedit quia eum itaque voluptate. Quasi fugit vitae illum odio? Molestias ullam iste obcaecati. Minus sequi nam incidunt dolor esse, maiores sed voluptates enim tempore omnis nihil, quam qui perferendis animi vero eligendi quo aspernatur dolores? Consequuntur odio voluptatem cum nostrum tempore.</p>
+          <div>
+            <p class="fw-bold fs-5">lorem</p>
+            <p>lorem</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, vel est? Beatae quam dignissimos asperiores vel animi quisquam dicta dolores rerum cumque, quos dolor, modi corporis est soluta velit error?</p>
+          </div>
+          <div>
+            <p class="fw-bold">lorem</p>
+            <p>lorem</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, vel est? Beatae quam dignissimos asperiores vel animi quisquam dicta dolores rerum cumque, quos dolor, modi corporis est soluta velit error?</p>
+          </div>
+          <div>
+            <p class="fw-bold">lorem</p>
+            <p>lorem</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, vel est? Beatae quam dignissimos asperiores vel animi quisquam dicta dolores rerum cumque, quos dolor, modi corporis est soluta velit error?</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================ WORK ================================  -->
+      <section id="work" class="py-5">
+        <h1 class="ms-5 ps-4 section-title">Work</h1>
+        <div class="container d-flex align-items-center">
+          <p class="w-50 pe-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sequi rem quasi ut dolorem, eligendi quas possimus corporis quod, quis veritatis at reiciendis aliquam illum. Nostrum perferendis, fugit veritatis ad recusandae soluta, est veniam mollitia doloremque asperiores earum maxime non velit facilis rem at iste hic eos quas natus nulla, vel quod nihil? Reprehenderit doloremque fugiat laboriosam aliquam quos tempore, beatae eaque corrupti deleniti eos dolore quam vero reiciendis rem magnam suscipit voluptatem minima omnis sit sed accusantium? Ullam sed blanditiis, officiis tempore libero repellat harum totam nesciunt officia nam quis veritatis cumque, velit impedit aperiam assumenda numquam repudiandae doloremque?
+          </p>
+          <div class="w-50">
+            <div class="row row-cols-2 g-3">
+              <div class="col">
+                <img src="lagi.jpg" alt="mark" class="img-fluid">
+              </div>
+              <div class="col">  
+                <img src="main.jpg" alt="mark" class="img-fluid">
+              </div>
+              <div class="col-12">  
+                <img src="foto.jpg" alt="mark" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================ CONTACT ================================  -->
+      <section id="contact" class="mb-5 pb-5">
+        <h1 class="ms-5 ps-4 section-title">Contact</h1>
+        <div class="container d-flex align-items-center">
+          <div class="w-50">
+            <p class="mb-4">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae architecto corporis natus cumque rem porro quas. Minus, voluptatum? Molestiae illo eius quidem quam architecto cumque dignissimos, accusantium asperiores harum numquam expedita esse cum voluptatum culpa sapiente consequuntur nesciunt eligendi neque facere quos quia. Ipsa porro perspiciatis asperiores? Quaerat, aperiam maiores.
+            </p>
+            <div class="row">
+              <div class="col d-flex align-items-center">
+                <img src="https://seeklogo.com/images/F/facebook-icon-black-logo-133935095E-seeklogo.com.png" alt="facebook" class="img-fluid" width="40px" height="40px">
+                <p class="m-0 ps-2">Nama</p>
+              </div>
+              <div class="col d-flex align-items-center">
+                <img src="https://assets.stickpng.com/images/5ecec78673e4440004f09e77.png" alt="instagram" width="40px" height="40px">
+                <p class="m-0 ps-2">@instagram</p>
+              </div>
+              <div class="col d-flex align-items-center">
+                <img src="https://www.pngall.com/wp-content/uploads/13/Whatsapp-Logo-PNG-Image-HD.png" alt="whatsapp" class="img-fluid" width="40px" height="40px">
+                <p class="m-0 ps-2">+62tebak</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-50 ps-5">
+            <form class="border p-5" method="post" onsubmit="submitForm()" id="form">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label fw-bold">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@email.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputSubject" class="form-label fw-bold">Subject</label>
+                <input type="text" class="form-control" id="exampleInputSubject" placeholder="Your Subject" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputMessage" class="form-label fw-bold">Message</label>
+                <input type="text" class="form-control" id="exampleInputMessage" placeholder="Your Message" required>
+              </div>
+              <center>
+                <button type="submit" class="btn btn-primary rounded rounded-pill">Submit</button>
+              </center>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

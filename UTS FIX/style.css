@@ -1,0 +1,14 @@
+p {
+    margin: 0;
+}
+.background-image {
+    background-image: url(Rani.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+
+.section-title {
+    font-size: 76px;
+    font-weight: 700;
+    color: lightgray;
+}
